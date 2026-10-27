@@ -1,0 +1,1 @@
+Algorithms are step-by-step procedures for solving computational problems. Searching, sorting, graph traversal, dynamic programming, and shortest path algorithms are common examples. Efficient algorithms reduce the time or memory required to solve large problems.

@@ -1,0 +1,1 @@
+Database systems organize and manage structured information. Relational databases store data in tables and commonly use SQL for querying and updating records. Indexes can make searches faster, while transactions help maintain consistency when multiple operations occur.

@@ -1,0 +1,1 @@
+Information retrieval focuses on finding relevant information from a collection of documents. Search engines may use inverted indexes, TF-IDF, BM25, semantic embeddings, query expansion, spelling correction, and ranking algorithms to return useful results.

@@ -1,0 +1,1 @@
+Web development involves building applications and websites that run through web browsers. Front-end technologies handle the user interface, while back-end systems manage business logic, databases, authentication, and APIs. HTTP is a fundamental protocol used for communication between clients and servers.

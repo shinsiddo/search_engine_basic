@@ -1,0 +1,1 @@
+Data science combines statistics, programming, machine learning, and domain knowledge to extract useful information from data. A typical data science workflow includes collecting data, cleaning data, exploring patterns, building models, and communicating results.

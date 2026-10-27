@@ -1,0 +1,1 @@
+Cloud computing provides computing resources such as servers, storage, databases, and applications over a network. Cloud platforms can scale resources according to demand and allow organizations to use infrastructure without managing every physical server themselves.

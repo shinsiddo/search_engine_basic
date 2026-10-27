@@ -1,0 +1,1 @@
+Computer vision enables computers to interpret images and videos. Tasks include image classification, object detection, image segmentation, face recognition, and visual tracking. Neural networks are widely used to learn visual patterns from large datasets.

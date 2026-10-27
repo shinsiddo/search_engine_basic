@@ -1,0 +1,1 @@
+Natural language processing allows computers to work with human language. Applications include search engines, text classification, translation, question answering, sentiment analysis, and chatbots. Modern NLP systems often use machine learning and semantic representations of text.

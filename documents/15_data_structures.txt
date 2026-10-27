@@ -1,0 +1,1 @@
+Data structures organize information so that programs can access and modify it efficiently. Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs are widely used data structures. Choosing an appropriate data structure can significantly improve program performance.

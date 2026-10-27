@@ -1,0 +1,1 @@
+Artificial intelligence enables computers to perform tasks that normally require human intelligence. AI systems can analyze information, recognize patterns, understand language, and make predictions. Machine learning is one important approach used to build AI systems from data.

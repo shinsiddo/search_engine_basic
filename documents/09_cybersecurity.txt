@@ -1,0 +1,950 @@
+Cybersecurity protects computers, networks, applications, and information from unauthorized access and attacks. Common security practices include authentication, encryption, access control, secure software development, monitoring, and regular updates.
+f you mean “give me all the details/topics of Cybersecurity”, here is a complete roadmap from beginner → advanced, useful for college, internships, placements, and GATE-level understanding.
+
+🔐 Cybersecurity — Complete Roadmap
+4
+1. Cybersecurity Fundamentals
+
+First understand what cybersecurity actually protects.
+
+CIA Triad
+
+The three fundamental goals:
+
+Confidentiality — only authorized people can access data.
+Integrity — data shouldn't be modified illegally.
+Availability — systems/data should be available when needed.
+Other important concepts
+Authentication
+Authorization
+Accounting/Auditing
+Non-repudiation
+Privacy
+Risk
+Threat
+Vulnerability
+Exploit
+Attack surface
+Security controls
+Incident
+Asset
+Security policy
+Types of security
+Network security
+Application security
+Information security
+Endpoint security
+Cloud security
+Mobile security
+IoT security
+Database security
+Operational security
+Physical security
+2. Computer Fundamentals
+
+You need strong computer fundamentals before advanced security.
+
+Operating Systems
+
+Learn:
+
+Processes
+Threads
+CPU scheduling
+Memory management
+Virtual memory
+File systems
+Permissions
+System calls
+Kernel
+User vs kernel mode
+Process isolation
+Access control
+Linux
+
+Very important for cybersecurity.
+
+Learn:
+
+pwd
+ls
+cd
+mkdir
+rm
+cp
+mv
+cat
+grep
+find
+chmod
+chown
+ps
+top
+kill
+sudo
+ssh
+curl
+wget
+netstat
+ss
+ip
+tcpdump
+
+Understand:
+
+Linux filesystem
+Users/groups
+File permissions
+Processes
+Services
+Logs
+SSH
+Bash scripting
+3. Networking
+
+Networking is one of the most important cybersecurity subjects.
+
+Learn the OSI model:
+
+7. Application
+6. Presentation
+5. Session
+4. Transport
+3. Network
+2. Data Link
+1. Physical
+TCP/IP
+
+Understand:
+
+IP addresses
+IPv4
+IPv6
+MAC addresses
+Ports
+Protocols
+Packets
+Frames
+Routing
+Switching
+NAT
+ARP
+DHCP
+DNS
+Important protocols
+Protocol	Purpose
+HTTP	Web communication
+HTTPS	Secure HTTP
+TCP	Reliable communication
+UDP	Fast connectionless communication
+IP	Addressing/routing
+DNS	Domain resolution
+DHCP	IP assignment
+SSH	Secure remote access
+FTP	File transfer
+SMTP	Email sending
+IMAP	Email retrieval
+ICMP	Network diagnostics
+TLS	Encryption/security
+4. Cryptography 🔑
+
+A huge cybersecurity topic.
+
+Basic concepts
+Plaintext
+Ciphertext
+Encryption
+Decryption
+Key
+Cryptographic algorithm
+Symmetric encryption
+Asymmetric encryption
+Hashing
+Symmetric cryptography
+
+Same key:
+
+Plaintext
+    ↓
+Encryption + Key
+    ↓
+Ciphertext
+    ↓
+Decryption + Same Key
+    ↓
+Plaintext
+
+Examples:
+
+AES
+ChaCha20
+Asymmetric cryptography
+
+Uses:
+
+Public key
+Private key
+
+Examples:
+
+RSA
+ECC
+Hashing
+
+Important algorithms:
+
+MD5
+SHA-1
+SHA-256
+SHA-3
+
+Understand why hashing is not encryption.
+
+Digital signatures
+
+Learn:
+
+Hash
+Private key
+Public key
+Digital signature
+Certificate
+PKI
+
+Public Key Infrastructure:
+
+Certificate Authority
+Digital certificates
+Public/private keys
+Certificate validation
+TLS certificates
+5. Web Security 🌐
+
+Extremely important for cybersecurity jobs.
+
+Understand:
+
+HTTP
+GET
+POST
+PUT
+DELETE
+PATCH
+Headers
+Cookies
+Sessions
+Status codes
+Authentication
+OWASP Top 10
+
+You should know these extremely well.
+
+Major categories include:
+
+Broken Access Control
+Cryptographic Failures
+Injection
+Insecure Design
+Security Misconfiguration
+Vulnerable Components
+Authentication Failures
+Software/Data Integrity Failures
+Logging/Monitoring Failures
+SSRF
+Important web vulnerabilities
+SQL Injection
+
+Understand:
+
+Application
+     ↓
+Database
+     ↓
+Malicious input
+     ↓
+Unexpected SQL behavior
+
+Learn how to identify and prevent SQL injection.
+
+XSS
+
+Cross-Site Scripting:
+
+Stored XSS
+Reflected XSS
+DOM-based XSS
+CSRF
+
+Cross-Site Request Forgery.
+
+Authentication vulnerabilities
+Weak passwords
+Credential stuffing
+Session attacks
+Poor session management
+Missing MFA
+Other vulnerabilities
+IDOR
+SSRF
+File upload vulnerabilities
+Path traversal
+Command injection
+XXE
+Open redirects
+Security misconfiguration
+6. Ethical Hacking
+
+Ethical hacking means authorized security testing.
+
+Typical methodology:
+
+Reconnaissance
+      ↓
+Scanning
+      ↓
+Enumeration
+      ↓
+Vulnerability Assessment
+      ↓
+Controlled Exploitation
+      ↓
+Post-Exploitation Analysis
+      ↓
+Reporting
+      ↓
+Remediation
+Reconnaissance
+
+Learn concepts such as:
+
+DNS information
+WHOIS
+Subdomains
+Publicly available information
+Technology identification
+Scanning
+
+Learn:
+
+Port scanning
+Service discovery
+Version detection
+Vulnerability scanning
+
+Tools commonly encountered in authorized labs:
+
+Nmap
+Wireshark
+Burp Suite
+OWASP ZAP
+Metasploit
+
+Only use these against systems you own or have explicit permission to test.
+
+7. Network Security
+
+Learn:
+
+Firewalls
+
+Types:
+
+Packet filtering
+Stateful firewall
+Application firewall
+Next-generation firewall
+IDS
+
+Intrusion Detection System.
+
+IPS
+
+Intrusion Prevention System.
+
+VPN
+
+Understand:
+
+Tunneling
+Encryption
+VPN protocols
+Remote access VPN
+Site-to-site VPN
+Network attacks
+
+Understand defensively:
+
+DoS/DDoS
+ARP spoofing
+DNS attacks
+Man-in-the-middle
+Packet sniffing
+Session hijacking
+Rogue access points
+8. Malware & Threats 🦠
+
+Learn different malware categories:
+
+Virus
+Worm
+Trojan
+Ransomware
+Spyware
+Rootkit
+Botnet
+Keylogger
+Adware
+
+Understand the lifecycle:
+
+Initial Access
+      ↓
+Execution
+      ↓
+Persistence
+      ↓
+Privilege Escalation
+      ↓
+Defense Evasion
+      ↓
+Credential Access
+      ↓
+Discovery
+      ↓
+Lateral Movement
+      ↓
+Collection
+      ↓
+Exfiltration
+      ↓
+Impact
+
+A useful framework here is MITRE ATT&CK.
+
+9. Digital Forensics
+
+Digital forensics involves investigating security incidents.
+
+Learn:
+
+Disk forensics
+Memory forensics
+Network forensics
+File-system analysis
+Browser artifacts
+Log analysis
+Timeline analysis
+Evidence preservation
+Chain of custody
+
+Important concepts:
+
+Evidence
+ ↓
+Collection
+ ↓
+Preservation
+ ↓
+Examination
+ ↓
+Analysis
+ ↓
+Reporting
+10. SOC — Security Operations Center
+
+A SOC monitors organizations for security threats.
+
+SOC analyst skills
+
+Learn:
+
+Log analysis
+Alert investigation
+Threat detection
+Incident response
+SIEM
+Network monitoring
+Endpoint monitoring
+SIEM
+
+Security Information and Event Management.
+
+Examples:
+
+Splunk
+Microsoft Sentinel
+Elastic Security
+
+Typical flow:
+
+Servers
+   ↓
+Endpoints
+   ↓
+Network Devices
+   ↓
+Applications
+   ↓
+Logs
+   ↓
+SIEM
+   ↓
+Detection
+   ↓
+Alert
+   ↓
+Investigation
+11. Incident Response
+
+When an organization gets hacked, security teams need to respond.
+
+Typical stages:
+
+Preparation
+Detection
+Analysis
+Containment
+Eradication
+Recovery
+Lessons learned
+
+You should understand:
+
+Incident classification
+IOC
+Triage
+Containment
+Root-cause analysis
+Recovery
+Post-incident reporting
+12. Cloud Security ☁️
+
+Very important for modern cybersecurity.
+
+Learn:
+
+Cloud concepts
+IaaS
+PaaS
+SaaS
+Virtual machines
+Containers
+Serverless
+IAM
+Security groups
+Cloud networking
+Encryption
+Logging
+
+Major platforms:
+
+AWS
+Azure
+Google Cloud
+Cloud security concepts
+Identity and Access Management
+Least privilege
+Secrets management
+Data encryption
+Network segmentation
+Cloud logging
+Misconfiguration detection
+Container security
+13. Application Security
+
+Learn security throughout the software development lifecycle.
+
+Planning
+ ↓
+Design
+ ↓
+Development
+ ↓
+Testing
+ ↓
+Deployment
+ ↓
+Monitoring
+
+Security should exist at every stage.
+
+Learn:
+
+Secure coding
+Threat modeling
+Secure code review
+Dependency security
+SAST
+DAST
+Software composition analysis
+Secrets scanning
+CI/CD security
+DevSecOps
+14. Mobile Security 📱
+
+Learn:
+
+Android architecture
+iOS security concepts
+App permissions
+Secure storage
+Authentication
+API security
+Certificate validation
+Mobile malware
+Reverse engineering concepts
+15. IoT Security
+
+Learn:
+
+Sensors
+Embedded systems
+Firmware
+Device authentication
+Secure communication
+Firmware security
+Hardware security
+IoT network security
+16. Reverse Engineering
+
+Advanced topic.
+
+Learn:
+
+Assembly basics
+CPU architecture
+Executables
+PE/ELF
+Debugging
+Static analysis
+Dynamic analysis
+Disassembly
+Decompilation
+
+Tools commonly used in legitimate analysis:
+
+Ghidra
+IDA
+x64dbg
+GDB
+17. Programming for Cybersecurity 👨‍💻
+
+You don't need to become an expert in every language, but programming is extremely useful.
+
+Python ⭐⭐⭐⭐⭐
+
+Learn:
+
+Variables
+Functions
+OOP
+File handling
+Regex
+JSON
+APIs
+Networking
+Sockets
+Automation
+C/C++ ⭐⭐⭐⭐
+
+Useful for understanding:
+
+Memory
+Pointers
+Stack
+Heap
+Buffer management
+Operating systems
+Low-level vulnerabilities
+JavaScript ⭐⭐⭐⭐
+
+Important for:
+
+Web applications
+Browser security
+XSS
+APIs
+Frontend security
+SQL ⭐⭐⭐⭐
+
+Important for:
+
+Databases
+Web security
+SQL injection prevention
+Data security
+Bash ⭐⭐⭐
+
+Important for Linux automation.
+
+18. Security Architecture
+
+Learn how organizations design secure systems.
+
+Topics:
+
+Defense in depth
+Least privilege
+Zero Trust
+Network segmentation
+Authentication
+Authorization
+Security boundaries
+Secure architecture
+Threat modeling
+Zero Trust
+
+Basic principle:
+
+Don't automatically trust something just because it is inside the network.
+
+19. Identity & Access Management
+
+Learn:
+
+Authentication
+Authorization
+MFA
+RBAC
+ABAC
+SSO
+OAuth
+OpenID Connect
+SAML
+Password policies
+Privileged access management
+20. Security Governance
+
+For advanced cybersecurity careers, learn:
+
+Security policies
+Risk management
+Compliance
+Auditing
+Security standards
+Business continuity
+Disaster recovery
+Security awareness
+
+Important frameworks/standards:
+
+NIST Cybersecurity Framework
+ISO 27001
+CIS Controls
+SOC 2
+PCI DSS
+21. Risk Management
+
+Understand:
+
+Asset
+ ↓
+Threat
+ ↓
+Vulnerability
+ ↓
+Risk
+ ↓
+Security Control
+ ↓
+Residual Risk
+
+Learn:
+
+Risk identification
+Risk assessment
+Risk mitigation
+Risk acceptance
+Risk transfer
+Risk avoidance
+22. Password Security
+
+Understand:
+
+Password hashing
+Salting
+Password policies
+MFA
+Password managers
+Credential stuffing
+Brute-force attacks
+Dictionary attacks
+
+Never store passwords as plaintext.
+
+23. Security Testing
+
+Types:
+
+SAST
+
+Static Application Security Testing.
+
+DAST
+
+Dynamic Application Security Testing.
+
+Penetration testing
+
+Authorized testing of systems to discover vulnerabilities.
+
+Vulnerability assessment
+
+Finding and prioritizing vulnerabilities.
+
+Security audit
+
+Checking whether systems/processes meet requirements.
+
+24. Cybersecurity Tools
+
+You don't need to learn all of these immediately.
+
+Networking
+Wireshark
+Nmap
+tcpdump
+Web security
+Burp Suite
+OWASP ZAP
+Linux
+Kali Linux
+Ubuntu
+Forensics
+Autopsy
+Volatility
+SIEM
+Splunk
+Elastic
+Microsoft Sentinel
+Reverse engineering
+Ghidra
+GDB
+x64dbg
+Vulnerability assessment
+Nessus
+OpenVAS/Greenbone
+25. Cybersecurity Career Paths
+
+Cybersecurity isn't one single job.
+
+🛡️ SOC Analyst
+
+Focus:
+
+SIEM
+Logs
+Alerts
+Incident response
+Networking
+🕵️ Penetration Tester
+
+Focus:
+
+Web security
+Networking
+Vulnerability assessment
+Security testing
+🔬 Digital Forensics Analyst
+
+Focus:
+
+Evidence
+Disk analysis
+Memory
+Logs
+Investigations
+🦠 Malware Analyst
+
+Focus:
+
+Reverse engineering
+Assembly
+Malware behavior
+Debugging
+☁️ Cloud Security Engineer
+
+Focus:
+
+AWS/Azure/GCP
+IAM
+Cloud networking
+Containers
+DevSecOps
+🔐 Application Security Engineer
+
+Focus:
+
+Secure coding
+Web security
+Code review
+SAST/DAST
+DevSecOps
+🏗️ Security Engineer
+
+Focus:
+
+Networks
+Firewalls
+IAM
+Infrastructure
+Security architecture
+🎯 What YOU should learn first
+
+Since you're already working toward DSA/AI/ML and internships, I wouldn't recommend trying to learn all of cybersecurity at once.
+
+I'd follow this order:
+
+1. Computer Networks
+        ↓
+2. Linux
+        ↓
+3. Operating Systems
+        ↓
+4. Python
+        ↓
+5. Cybersecurity Fundamentals
+        ↓
+6. Cryptography
+        ↓
+7. Web Security
+        ↓
+8. Ethical Hacking
+        ↓
+9. Network Security
+        ↓
+10. SIEM + SOC
+        ↓
+11. Cloud Security
+        ↓
+12. Advanced Security
+⭐ For an internship, prioritize these
+
+Must know:
+
+Networking
+Linux
+Python
+OS basics
+HTTP/HTTPS
+TCP/IP
+DNS
+Cryptography basics
+Authentication/authorization
+OWASP Top 10
+SQL
+Git
+Basic cloud
+Basic security tools
+
+Then build 2–3 projects, for example:
+
+🔎 Network Packet Analyzer
+🛡️ Intrusion Detection System
+🌐 Web Vulnerability Scanner for a local test lab
+🔐 Password Security Analyzer
+📊 SOC/SIEM Log Analysis Dashboard
+🦠 Malware Behavior Analyzer in a sandbox
+☁️ Cloud Security Monitoring Project
+
+That combination will be much more valuable for internships than simply collecting cybersecurity certificates.

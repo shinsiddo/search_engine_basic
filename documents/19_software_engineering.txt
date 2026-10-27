@@ -1,0 +1,1 @@
+Software engineering applies systematic methods to designing, developing, testing, deploying, and maintaining software. Important practices include version control, requirements analysis, modular design, automated testing, code review, debugging, and continuous integration.
